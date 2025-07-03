@@ -48,7 +48,7 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
 
 ## Results & Visualization
 
-![Actual vs Predicted Weight](actual_vs_predicted)
+![Actual vs Predicted Weight](actual_vs_predicted.png)
 
 - The plot shows a wide spread around the ideal prediction line (in red).
 - There's clear evidence of **underfitting** and non-linear behavior not well captured by a simple linear model.
@@ -71,9 +71,10 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
 ## File Structure
 
 ```
+Gym_Regression_ML
 ├── healthcare_weight_prediction.ipynb  # Main notebook
-├── gym_members.csv                     # Input data
-├── 5c71b25c-9867-4d81-b290-15614a08321b.png  # Prediction plot
+├── gym_members.csv                     # Input data (Credit: Kaggle)
+├── actual_vs_predicted.png             # Prediction plot
 └── README.md                           # Project summary and reflection
 ```
 
