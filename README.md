@@ -1,11 +1,11 @@
-# 🏋️‍♂️ Predicting Weight from Gym Exercise Dataset using Linear Regression
+# Predicting Weight from Gym Exercise Dataset using Linear Regression
 
-## 📌 Project Overview
+## Project Overview
 This project aims to build a linear regression model to **predict gym members' weight (kg)** based on various health and activity features such as height, age, exercise level, and workout metrics. The dataset used comes from a Kaggle source: [Gym Members Exercise Dataset](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset).
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset includes **973 entries** and multiple health-related features:
 
@@ -22,13 +22,13 @@ The dataset includes **973 entries** and multiple health-related features:
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Can we accurately predict a gym member’s **weight** based on measurable attributes such as age, height, experience, and exercise-related features?
 
 ---
 
-## 🧪 Process Summary
+## Process Summary
 
 1. **Data Preprocessing**
    - Handled missing values.
@@ -46,7 +46,7 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
 
 ---
 
-## 📉 Results & Visualization
+## Results & Visualization
 
 ![Actual vs Predicted Weight](5c71b25c-9867-4d81-b290-15614a08321b.png)
 
@@ -55,7 +55,7 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
 
 ---
 
-## 🤔 Reflection
+## Reflection
 
 - **Model Performance:**  
   With an MSE of **304.23**, the model's predictions are quite far from the actual values. The output plot confirms poor linear fit, likely due to:
@@ -63,17 +63,12 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
   - **Unscaled features**
   - **Omitted interactions or derived metrics (like BMI or Fat%)**
 
-- **Next Steps:**
-  - Normalize/standardize features.
-  - Use more complex models like **Polynomial Regression**, **Random Forest**, or **Gradient Boosting**.
-  - Feature selection using correlation analysis or Lasso.
-
 - **Lesson Learned:**  
   Linear regression, while interpretable, has limited capacity to model complex relationships in health and fitness data. This experiment reinforces the importance of **exploratory analysis, model choice, and feature engineering** in machine learning pipelines.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 ├── healthcare_weight_prediction.ipynb  # Main notebook
@@ -84,7 +79,7 @@ Can we accurately predict a gym member’s **weight** based on measurable attrib
 
 ---
 
-## 🙌 Credits
+## Credits
 
 Dataset: [Kaggle - Gym Members Exercise Dataset](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset)  
 Author: Saumya Padhi  
