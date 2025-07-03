@@ -85,3 +85,5 @@ Gym_Regression_ML
 Dataset: [Kaggle - Gym Members Exercise Dataset](https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset)  
 Author: Saumya Padhi  
 Course: MGT-665-NW | Solving Problems with Machine Learning
+Instructor: Dr. Mighty Itauma Itauma
+
